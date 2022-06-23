@@ -3,9 +3,7 @@ body{
   }
   
   
-  .head{
-  
-  
+.head{
     width: 350px;
     height: 350px;
     background-color: black;
@@ -16,11 +14,11 @@ body{
     left: 0;
     right: 0;
     margin: auto;
-    
-  }
+
+}
   
-  .eye{
-    width: 40px;
+.eye{
+    width: 50px;
     height: 40px;
     background-color: white;
     margin-top: 100px;
@@ -28,10 +26,16 @@ body{
     margin-right: auto;
   }
   
-  .beak{
-       
-      border-top: 50px solid transparent;
-      border-left: 100px solid yellow;
-      border-bottom: 50px solid transparent;
-      margin-left: 350px;
+#beak_Top{
+    border-top: 50px solid transparent;
+    border-left: 100px solid rgb(255, 255, 9);
+    border-bottom: 50px solid transparent;
+    margin-left: 350px;
+  }
+
+#beak_Bottom{
+    border-top: 50px solid transparent;
+    border-left: 100px solid rgb(212, 212, 0);
+    border-bottom: 50px solid transparent;
+    margin-left: 350px;
   }
