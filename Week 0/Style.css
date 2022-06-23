@@ -1,0 +1,43 @@
+html{
+    font-size: 62.5%;
+  }
+  
+  #container{
+    background:rgb(50, 200, 250);
+    position: relative;
+    width:80rem; 
+    margin:8% auto;
+    height: 46rem;
+  }
+  #head{
+  width: 32rem;
+  height:32rem;
+  border: black solid 1px;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  position: absolute;
+  bottom: 0rem;
+  left: 24rem;
+  background: black;
+  z-index: 1;
+  }
+  
+  #eye{
+    width: 3rem;
+    height: 3rem;
+    background: white;
+    position: absolute;
+    left: 38rem;
+    top: 23rem;
+    z-index: 2;
+  }
+  #beak{
+    width: 15rem;
+    height: 15rem;
+    background: rgb(252, 203, 95);
+    transform: rotateZ(45deg);
+    position: absolute;
+    top:22.5rem ;
+    left: 44.5rem;
+    z-index: 0;
+  }
